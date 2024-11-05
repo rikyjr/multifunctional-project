@@ -2,14 +2,16 @@
 
 
 
+
 .project-box-wrapper{
-  padding: 8px;
-    transition: 0.2s;
+  display: flex;
+  flex-wrap: wrap;
+
   .project-boxes{
-    //background-color:#fee4cb ;
+
     border-radius: 30px;
     padding: 16px;
-    width: 100%;
+
 
     .box-wrapper{
       display: flex;
@@ -80,9 +82,11 @@
 
 
   }
-
-
 }
+
+
+
+
 
 
 
