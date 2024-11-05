@@ -1,0 +1,91 @@
+
+
+
+
+.project-box-wrapper{
+  padding: 8px;
+    transition: 0.2s;
+  .project-boxes{
+    //background-color:#fee4cb ;
+    border-radius: 30px;
+    padding: 16px;
+    width: 100%;
+
+    .box-wrapper{
+      display: flex;
+      justify-content: space-between;
+        .date-wrap{
+          color: #4A4A4A;
+          opacity: 0.7;
+          font-size: 14px;
+        }
+    }
+    .titles{
+      margin-top: 15px;
+      text-align: center;
+      .title-card{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        opacity: 0.7;
+
+      }
+      .subTitleCard{
+        font-size: 14px;
+          line-height: 24px;
+          opacity: 0.7;
+
+      }
+
+    }
+    .title_progress{
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+    }
+    .number-percentage{
+      text-align: right;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      border-bottom: 1px solid rgb(255, 255, 255);
+
+    }
+    .participants{
+      margin-top: 15px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      object-fit: cover;
+    }
+    .days-left{
+      margin-top: 15px;
+      background-color: (255, 255, 255, 0.6);
+      font-size: 12px;
+      border-radius: 20px;
+      flex-shrink: 0;
+      padding: 6px 16px;
+      font-weight: 700;
+      color: #ff942e;
+    }
+    .footer-card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+
+  }
+
+
+}
+
+
+
+
+
+

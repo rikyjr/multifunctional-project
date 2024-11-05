@@ -1,0 +1,37 @@
+<div class="project-box-wrapper">
+  <div class="project-boxes" [ngStyle]="{'background-color': cardData.bgColor}" >
+    <div class="box-wrapper">
+      <div class="date-wrap">{{ cardData.date }}</div>
+      <div class="icon-points-card">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHlJREFUSEvt1MEJwkAQheFv6xCEYEE2k4sdhBSUckTBIrxFhNwC2V3ZOblzHt4b/nm8JHhSsL7/MrhiwooRSwneGkQvnDbROy6tDZ44b6IPDK0NvohmvHGLQFRy8G6n5gfhBj1FWcQ9RUWIehcdYuopyqbop4XwNv0AggQeGVLrRf0AAAAASUVORK5CYII=" />
+      </div>
+    </div>
+    <div class="titles">
+      <div class="title-card">{{ cardData.title }}</div>
+      <div class="subTitleCard">{{ cardData.subTitle }}</div>
+    </div>
+    <div class="title_progress">{{ cardData.progress }}</div>
+    <div class="box-progress-bar">
+      <span class="box-progress" [style.width.%]="cardData.number" [ngStyle]="{'background-color': cardData.progressColor}"></span>
+    </div>
+    <div class="number-percentage">{{ cardData.number }}%</div>
+    <div class="footer-card">
+      <div class="participants">
+        <img
+        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80"
+        alt="participant">
+      <img
+        src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60"
+        alt="participant">
+
+      </div>
+      <div class="days-left" [ngStyle]="{'color': cardData.dayLeft}">2 Days left</div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+

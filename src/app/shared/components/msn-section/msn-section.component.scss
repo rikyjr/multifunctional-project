@@ -1,0 +1,25 @@
+
+.messages-section{
+  // display: flex;
+  // justify-content: space-between;
+  .title-msn{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    // line-height: 32px;
+
+
+  }
+
+  .img_msn{
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+  }
+
+}
+

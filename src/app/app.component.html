@@ -1,0 +1,34 @@
+<div class="app-container">
+
+  <app-header></app-header>
+
+  <div class="app-content">
+
+    <app-side-bar></app-side-bar>
+
+    <div class="projects-section">
+      <div class="projects-section-header">
+        <p>Projects</p>
+        <p class="date-time">December , 12 </p>
+      </div>
+
+      <app-process-line> </app-process-line>
+
+      <div class="project-boxes jsGridView">
+        @for (item of itemCard; track $index) {
+        <app-card [cardData]="item" [bgColor]="item.bgColor"></app-card>
+        }
+      </div>
+    </div>
+
+    <div class="messages-section">
+      <app-msn-section></app-msn-section>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<router-outlet />
