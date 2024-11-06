@@ -30,8 +30,8 @@ export class AppComponent {
 
 
 
-  itemCard: ItemCard[] =
-  [
+  itemCard: ItemCard[] = [
+
 
     {
       id: 1,
@@ -85,7 +85,7 @@ export class AppComponent {
       title: 'Data Analysis',
       subTitle: 'Prototyping',
       progress: 'Progress',
-      number: '30',
+      number: '60',
       bgColor:"#c8f7dc",
        progressColor:"#34c471",
        dayLeft:"#34c471",
@@ -105,14 +105,17 @@ export class AppComponent {
 
   infoProgress: ItemLine []= [
     {
+      id:1,
       number: 45,
       title:'In Progress'
     },
     {
+      id:2,
       number: 24,
       title:'Upcoming'
     },
     {
+      id:3,
       number: 45,
       title:'Total Projects'
     }
