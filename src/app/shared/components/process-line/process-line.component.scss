@@ -1,24 +1,59 @@
-.amarello{
+.projects-section-line{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
-  .amaru{
+  align-items: center;
+  padding-bottom: 32px;
+  .projects-status{
     display: flex;
-    justify-content: space-between;
-     .status-lin{
-
-
-      .line-number{
-
-        font-size: 24px;
+    .item-status{
+      margin-right: 0;
+      .status-number{
+        font-size: 14px;
         line-height: 32px;
         font-weight: 700;
-
+        color: black;
       }
-     }
+      .status-type{
+        font-size: 14px;
+        padding-right: 24px;
+        color: #4A4A4A;
+      }
+    }
+
 
 
   }
+  .view-actions{
 
-
+    display: flex;
+    align-items: center;
+    .list-view{
+      width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: var(--main-color);
+    margin-left: 8px;
+    transition: 0.2s;
+    }
+    .grid-view{
+      width: 36px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: none;
+      color: var(--main-color);
+      margin-left: 8px;
+      transition: 0.2s;
+    }
+  }
 }

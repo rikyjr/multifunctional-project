@@ -14,16 +14,16 @@
 
       <app-process-line> </app-process-line>
 
-      <div class="project-boxes jsGridView">
+      <div class="project-boxes">
         @for (item of itemCard; track $index) {
         <app-card [cardData]="item" [bgColor]="item.bgColor"></app-card>
         }
       </div>
     </div>
 
-    <div class="messages-section">
+
       <app-msn-section></app-msn-section>
-    </div>
+
 
   </div>
 
