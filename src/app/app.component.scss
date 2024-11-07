@@ -1,5 +1,5 @@
 .container {
-  max-width: 1120px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,6 @@
     padding: 16px 24px 24px 0;
 
     .projects-section {
-
       background-color: white;
       border-radius: 32px;
       padding: 32px 32px 0 32px;
@@ -38,22 +37,21 @@
         }
       }
     }
-    .projects-section-line{
+    .projects-section-line {
       display: flex;
-     justify-content: space-between;
-     .section-line{
-      display: flex;
-     }
+      justify-content: space-between;
+      .section-line {
+        display: flex;
+      }
 
-      .view-actions{
+      .view-actions {
         display: flex;
 
-    margin-top: 19px;
+        margin-top: 19px;
 
-    .list-view{
-      padding: 0px 2px;
-    }
-
+        .list-view {
+          padding: 0px 2px;
+        }
       }
     }
 
@@ -62,4 +60,10 @@
       flex-wrap: wrap;
     }
   }
+@media ( width >= 600px) and
+(width<=1200px){
+ .project-boxes {
+  width: 100%;
+ }
+}
 }
