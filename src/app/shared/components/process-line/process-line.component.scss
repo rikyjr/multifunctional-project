@@ -1,68 +1,59 @@
-.projects-section-line{
+.projects-section-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 32px;
-
-  .projects-status{
+  .projects-status {
     display: flex;
     margin-right: 16px;
-    .item-status{
+    .item-status {
       display: flex;
       flex-direction: column;
       margin-right: 16px;
-      .status-number{
+      .status-number {
         font-size: 24px;
         line-height: 32px;
         font-weight: 700;
         color: black;
       }
-      .status-icon{
+      .status-icon {
         display: flex;
         align-items: center;
-
-        .status-type{
-
+        .status-type {
           padding-right: 24px;
-          font-size: 16px;
-          color: #4A4A4A;
+          font-size: 14px;
+          color: #4a4a4a;
+
         }
-        .icon-progress{
+        .icon-progress {
           width: 8px;
           height: 8px;
           border-radius: 50%;
           border: 1px solid gray;
           margin-left: -15px;
           margin-top: 4px;
-            }
-
+        }
       }
-
-
     }
-
-
-
   }
-  .view-actions{
-
+  .view-actions {
     display: flex;
     align-items: center;
-    .list-view{
+    .list-view {
       width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6px;
-    border-radius: 4px;
-    background-color: transparent;
-    border: none;
-    color: var(--main-color);
-    margin-left: 8px;
-    transition: 0.2s;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: none;
+      color: var(--main-color);
+      margin-left: 8px;
+      transition: 0.2s;
     }
-    .grid-view{
+    .grid-view {
       width: 36px;
       height: 36px;
       display: flex;
